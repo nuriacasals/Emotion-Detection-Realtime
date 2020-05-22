@@ -12,8 +12,9 @@ Download kaggle dataset from here => https://www.kaggle.com/c/challenges-in-repr
 Download haarcascades file from here=> https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml
 
 ### Usage:
-First Run Emotion_recognition.py => python Emotion_recognition.py</br>. Since the model is already trained, this step is not needed. Run it if you want to tune the model.
-Then run vidotester.py
+For training the model, run emotion_recognition.py => python emotion_recognition.py Since the model is already trained, this step is not needed).</br>
+
+Run vidotester.py => python vidotester.py for real time emotion detection.
 
 ### Resources:
 * http://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/
